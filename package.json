@@ -1,0 +1,21 @@
+{
+  "name": "postnl_shipping_client",
+  "version": "1.0.0",
+  "description": "A_NodeJS_API_client_for_PostNL_shipping_services__Features_include_Generating_barcdes_Generating_labels_in_Base64",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
